@@ -1,0 +1,32 @@
+{
+  "name": "releasebot",
+  "version": "1.0.0",
+  "description": "Tool for releases",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "release": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "releasebot.git"
+  },
+  "author": "Talha Habib",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "18.0.6",
+    "@slack/web-api": "5.12.0",
+    "axios": "0.20.0",
+    "chalk": "4.1.0",
+    "commander": "6.1.0",
+    "dotenv": "8.2.0",
+    "listr": "0.14.3"
+  },
+  "devDependencies": {
+    "husky": "4.3.0",
+    "jest": "26.4.2",
+    "lint-staged": "10.4.1",
+    "prettier": "2.0.5"
+  }
+}
